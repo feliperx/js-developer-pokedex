@@ -1,3 +1,8 @@
+.headerTitle {
+    color: #fff;
+    text-align: center;
+}
+
 .pokemons {
     display: grid;
     grid-template-columns: 1fr;
@@ -84,6 +89,8 @@
     margin: .5rem;
     padding: 1rem;
     border-radius: 1rem;
+    border-width: 3px;
+    border-color: #fff;
 }
 
 .pokemon .number {
